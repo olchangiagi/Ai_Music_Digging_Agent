@@ -1,0 +1,4 @@
+# Boto3 버전 범위 1.40 <= boto3 < 2
+boto3 >= 1.40, < 2 
+# .env 파일 자동 읽기
+python-dotenv >= 1.2, <2
