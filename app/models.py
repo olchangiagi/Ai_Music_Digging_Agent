@@ -12,3 +12,5 @@ class Track:
     title: str      # 곡 제목
     artist: str     # 아티스트 이름
     tags: list[str] # 장르, 분위기를 나타내는 키워드들
+    musicbrainz_id: str | None = None # 없을 수 도 있는 MusicBrainz recording id
+    disambiguation: str | None = None # 같은 제목의 녹음을 구분하는 설명
