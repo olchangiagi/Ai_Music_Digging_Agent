@@ -4,3 +4,5 @@ boto3 >= 1.40, < 2
 python-dotenv >= 1.2, <2
 # MusicBrainz와 Last.fm API에 HTTP 요청을 보내는 용도
 requests >= 2.32, <3
+# Python에서 PostgreSQL 접속
+psycopg[binary] >= 3, <4
